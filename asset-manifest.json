@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/dinesh-madhavan1.github.io/static/css/main.549563eb.css",
+    "main.js": "/dinesh-madhavan1.github.io/static/js/main.36b161d3.js",
+    "static/media/app-store-badge.svg": "/dinesh-madhavan1.github.io/static/media/app-store-badge.8c4986ee4828b47d16f5cd694ef065f2.svg",
+    "static/media/user.svg": "/dinesh-madhavan1.github.io/static/media/user.ac816b992dc6febd0ef6b79e0a8a16f0.svg",
+    "static/media/safari-icon.svg": "/dinesh-madhavan1.github.io/static/media/safari-icon.51e93e4dd86df61bd9bee2f554c91bf4.svg",
+    "static/media/clock.svg": "/dinesh-madhavan1.github.io/static/media/clock.1f8b5be664e0269bbba639e224a20bdb.svg",
+    "static/media/lock.svg": "/dinesh-madhavan1.github.io/static/media/lock.217defbf89ee7d73e6cba309f997d4fb.svg",
+    "index.html": "/dinesh-madhavan1.github.io/index.html",
+    "main.549563eb.css.map": "/dinesh-madhavan1.github.io/static/css/main.549563eb.css.map",
+    "main.36b161d3.js.map": "/dinesh-madhavan1.github.io/static/js/main.36b161d3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.549563eb.css",
+    "static/js/main.36b161d3.js"
+  ]
+}
