@@ -1,0 +1,43 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #000000;
+  color: white;
+  min-height: 100vh;
+}
+
+.App-header {
+  background-color: #000000;
+  padding: 20px;
+  text-align: left;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+button {
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+footer {
+  background-color: #000000;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+}
+
+footer a {
+  color: #00bfff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}

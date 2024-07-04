@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy</title>
+  <style>
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #000000;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      background-color: #000000;
+      padding: 20px;
+    }
+
+    .header-title {
+      animation: textColorChange 3s infinite;
+    }
+
+    @keyframes textColorChange {
+      0% {
+        color: #ffffff;
+      }
+      50% {
+        color: #00bfff;
+      }
+      100% {
+        color: #ffffff;
+      }
+    }
+
+    main {
+      flex: 1;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    h2 {
+      font-size: 2rem;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    footer {
+      background-color: #000000;
+      padding: 20px;
+      text-align: center;
+    }
+
+    a {
+      color: #00bfff;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    a:hover {
+      color: #ffffff;
+    }
+  </style>
+</head>
+<body>
+  <header class="bg-black py-4">
+    <div class="container mx-auto flex justify-between items-center">
+      <div class="text-lg font-bold text-blue-400 header-title">Drop2Fill</div>
+    </div>
+  </header>
+  <main class="container mx-auto p-8">
+    <h1 class="text-3xl font-bold mb-8">Privacy Policy</h1>
+    <p>Your privacy is important to us. This privacy policy explains how we handle your personal data when you use the Drop2Fill extension.</p>
+    <h2 class="text-2xl font-semibold mt-8 mb-4">Data Collection</h2>
+    <p>We do not collect any personal data. All the information you enter into the Drop2Fill extension is stored locally on your device. We do not have access to your personal information, and we do not send any data to our servers.</p>
+    <h2 class="text-2xl font-semibold mt-8 mb-4">Data Usage</h2>
+    <p>The data stored in the Drop2Fill extension is only used to fill out job application forms. The extension requires access to the sites you visit to perform its function but does not send any data to our servers. Your data remains on your device and is used solely for the purpose of simplifying your job application process.</p>
+    <h2 class="text-2xl font-semibold mt-8 mb-4">Security</h2>
+    <p>We prioritize the security of your data. Since your information is stored locally on your device, it is protected by the security measures you have in place on your device. We recommend that you keep your device secure and use strong passwords to protect your information.</p>
+    <h2 class="text-2xl font-semibold mt-8 mb-4">Third-Party Services</h2>
+    <p>Drop2Fill does not share your data with any third-party services. Your information is not sold, traded, or otherwise transferred to outside parties. The extension operates independently on your device and does not interact with any external servers or services.</p>
+    <h2 class="text-2xl font-semibold mt-8 mb-4">Compliance with Privacy Laws</h2>
+    <p>We comply with privacy laws and regulations in all countries where our extension is used. As we do not collect any personal data, we adhere to the principles of data minimization and privacy by design. Your data is not processed by our servers and remains under your control at all times.</p>
+    <h2 class="text-2xl font-semibold mt-8 mb-4">User Control</h2>
+    <p>You have full control over the data stored in the Drop2Fill extension. You can view, edit, or delete your information at any time. Since the data is stored locally on your device, you are the sole owner of your information.</p>
+    <h2 class="text-2xl font-semibold mt-8 mb-4">Updates to this Privacy Policy</h2>
+    <p>We may update this privacy policy from time to time. Any changes will be reflected on this page, and we encourage you to review this policy periodically. By continuing to use the Drop2Fill extension, you agree to the terms of the updated privacy policy.</p>
+    <h2 class="text-2xl font-semibold mt-8 mb-4">Contact Us</h2>
+    <p>If you have any questions or concerns about this privacy policy, please contact us at support@drop2fill.com . We are committed to addressing your inquiries and ensuring the protection of your privacy.</p>
+  </main>
+  <footer class="bg-black text-white py-4">
+    <p className="text-gray-400">&copy; 2024 Drop2Fill. All rights reserved.</p>
+    <div className="flex space-x-4">
+        <a href="/privacy-policy.html" class="text-gray-400 hover:text-white">Privacy Policy</a>
+        <a href="/about" class="text-gray-400 hover:text-white">About</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,16 @@
+
+@keyframes textColorChange {
+  0% {
+    color: #ffffff;
+  }
+  50% {
+    color: #00bfff;
+  }
+  100% {
+    color: #ffffff;
+  }
+}
+
+.header-title {
+  animation: textColorChange 3s infinite;
+}
